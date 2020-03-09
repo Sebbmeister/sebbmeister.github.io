@@ -4,7 +4,7 @@
 
 ### KTH Projects 
 
-<img width='25%' src="images/Kozmoz logo.png?raw=true"/>
+<img width='30%' src="images/Kozmoz logo.png?raw=true"/><br>
 [Kozmoz](https://github.com/Sebbmeister/Kozmoz) – Game project for the chipKIT™ Uno32 done as part of the course IS1200. Simple 1-2 player game inspired by *Space Invaders*.
 
 
