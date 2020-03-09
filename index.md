@@ -5,7 +5,7 @@
 ### KTH Projects 
 
 [Kozmoz](https://github.com/Sebbmeister/Kozmoz)
-<img src="images/Kozmoz logo.png?raw=true"/>
+<img src="images/Kozmoz logo2.png?raw=true"/>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
