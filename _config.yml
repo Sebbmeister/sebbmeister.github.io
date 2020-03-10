@@ -3,6 +3,12 @@ logo: "/images/testavatar3.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Second-year student studying Information Technology at KTH Royal Institute of Technology in Stockholm.
   <br><br>
+  Experience with:
+  *Java
+  *C
+  *Elixir
+  *Prolog
+  <br><br>
   Email: lihammer@kth.se
 
 theme: jekyll-theme-minimal
