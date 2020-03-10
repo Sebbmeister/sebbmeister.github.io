@@ -3,8 +3,7 @@ logo: "/images/testavatar3.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Second-year student studying Information Technology at KTH Royal Institute of Technology in Stockholm.
   <br><br>
-  Email: sebastian.lihammer@hotmail.com<br>
-         lihammer@kth.se
+  Email: lihammer@kth.se
 
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
