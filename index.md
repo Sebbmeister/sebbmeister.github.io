@@ -7,7 +7,7 @@
 [Kozmoz](https://github.com/Sebbmeister/Kozmoz) – Game project for the chipKIT™ Uno32 done as part of the course IS1200. Simple 1-2 player game inspired by *Space Invaders*.
 
 ---
-#### Assignment solutions
+#### Example assignment solutions
 * [DD1351](https://github.com/Sebbmeister/KTH-DD1351): Logik för dataloger; logical programming in Prolog.
 * [ID1019](https://github.com/Sebbmeister/KTH-ID1019): Programmering II; functional programming in Elixir.
 * [ID1020](https://github.com/Sebbmeister/KTH-ID1020): Algoritmer och datastrukturer; programming with algorithms and datastructures in Java and C.
