@@ -8,7 +8,8 @@
 
 ---
 #### Assignment solutions
-* [ID1019](https://github.com/Sebbmeister/KTH-ID1019): Programmering II; functional programming with Elixir.
+* [DD1351](https://github.com/Sebbmeister/KTH-DD1351): Logik för dataloger; logical programming in Prolog.
+* [ID1019](https://github.com/Sebbmeister/KTH-ID1019): Programmering II; functional programming in Elixir.
 * [ID1020](https://github.com/Sebbmeister/KTH-ID1020): Algoritmer och datastrukturer; programming with algorithms and datastructures in Java and C.
 * [IK1203](https://github.com/Sebbmeister/KTH-IK1203): Nätverk och kommunikation; socket programming with HTTP and TCP connections in Java.
 
