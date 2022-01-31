@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sebastian Lihammer</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- css file for design -->
+
+  </head>
+  <body>
+    <header>
+        <nav class="navigation">
+            <a href="#top">home</a>
+            <a href="#about">about</a>
+            <a href="#portfolio">portfolio</a>
+        </nav>
+    </header> 
+
+    <section class="top" id="top">
+
+        <div id="particles-js"></div>
+
+        <div class="content">
+            <img src="images/prof_pic.png">
+            <h3>sebastian lihammer</h3>
+            <a href="#about" class="btn">about me</a>
+        </div>  
+    </section>
+
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <section class="about" id="about">
+      <h1 class="heading"> about me </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/const.png">
+        </div>
+        <div class="content">
+          <p class="description">
+            I am a fourth-year student at KTH Royal Institute of Technology in Stockholm, studying the Master’s Programme in Software Engineering
+            for Distributed Systems. In addition to information and communication technology, I have also taken courses in literature, history,
+            writing and biology and I am always eager for more knowledge and new experiences. I have experience with several programming languages, 
+            including Java, C, Python, Erlang, Elixir, Prolog and Gaml. In my free time I enjoy reading, drawing and travelling.
+            <br><br>
+          </p>
+          <div class="box-container">
+            <div class="box">
+              <a href="#" onclick="location.href='https://www.linkedin.com/in/sebastian-lihammer-514a791b7';" class="btn">LinkedIn</a> 
+              <a href="#" onclick="location.href='https://github.com/Sebbmeister';" class="btn">GitHub</a> 
+              <a href="mailto:sebastian.lihammer@hotmail.com" class="btn">Email</a> 
+              <a href="mailto:lihammer@kth.se" class="btn">KTH Email</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading"> portfolio </h1>
+      <!-- <h2 class="subheading"> KTH projects </h2> -->
+      <div class="box-container">
+
+        <div class="box">
+          <div class="image">
+            <img src="images/memento.png">
+          </div>
+          <p>Android application</p>
+          <div class="content">
+            <a href="#" onclick="location.href='https://team-draco.github.io/';" class="btn"> project website </a>
+          </div>
+        </div> 
+
+        <div class="box">
+          <div class="image">
+            <img src="images/kozmoz.png">
+          </div>
+          <p>Game project for the chipKIT Uno32</p>
+          <div class="content">
+            <a href="#" onclick="location.href='https://github.com/Sebbmeister/Kozmoz';" class="btn"> repository </a>
+          </div>
+        </div> 
+
+        <div class="box">
+          <div class="image">
+            <img src="images/bacherlorthesis.png">
+          </div>
+          <p>Bachelor's thesis</p>
+          <div class="content">
+            <a href="#" onclick="location.href='http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1602714&dswid=5044';" class="btn"> download </a>
+          </div>
+        </div> 
+
+      </div>
+    </section>  
+  </body>
+</html>

@@ -1,0 +1,177 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600&display=swap');
+
+/* General */
+*{
+    font-family: 'Outfit', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+html{
+    font-size: 65%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+html::-webkit-scrollbar{
+    width: .5rem;
+}
+html::-webkit-scrollbar-track{
+    background: #fff;
+}
+html::-webkit-scrollbar-thumb{
+    background:maroon;
+}
+
+/* Website layout */
+body{
+    background: #eee;
+    padding-right: 0rem;
+}
+header{
+    position: fixed;
+    top: 0; right: 0;
+    min-height: 100vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    z-index: 1000;
+}
+section{
+    padding: 2rem 10%;
+    min-height: 100vh;
+}
+
+/* Navigation bar */
+header .navigation{
+    writing-mode: vertical-lr;
+    padding: 1rem;
+}
+header .navigation a{
+    padding: 1rem;
+    font-size: 2.3rem;
+    color:maroon;
+}
+header .navigation a:hover{
+    color:crimson;
+    letter-spacing: .3rem;
+}
+
+/* Top section */
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.top #particles-js{
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+}
+.top::before{
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+}
+.top .content{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.top .content img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border:1rem solid maroon;
+}
+.top .content h3{
+    font-size: 4.5rem;
+    color: #222; 
+}
+.btn{
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
+    background: #222;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background:crimson;
+    letter-spacing: .3rem;
+}
+
+/* About section */
+.heading{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 6rem;
+    color:#222;
+}
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: center;
+}
+.about .row .image{
+    text-align: center;
+    flex: 1 1 25rem;
+}
+.about .row .image img{
+    width: 28rem;
+    border-radius: .8rem;
+    border: 1rem solid maroon;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+}
+.about .row .content{
+    flex:1 1 55rem;
+}
+.about .row .content .description{
+    color:#222;
+    font-size:2rem;
+    padding:1rem;
+    line-height:2;
+}
+
+/* Portfolio section */
+.portfolio .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding-top:3.5rem;
+}
+.portfolio .box-container .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding:2rem;
+    text-align:center;
+    overflow:hidden;
+    font-size:1.5rem;
+}
+.portfolio .box-container .box .image img{
+    height: 5.5rem;
+}
+.subheading{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+    color:#222;
+}
