@@ -49,16 +49,16 @@ section{
 }
 
 /* Navigation bar */
-header .navigation{
+header .navbar .navigation{
     writing-mode: vertical-lr;
     padding: 1rem;
 }
-header .navigation a{
+header .navbar .navigation a{
     padding: 1rem;
     font-size: 2.3rem;
     color:maroon;
 }
-header .navigation a:hover{
+header .navbar .navigation a:hover{
     color:crimson;
     letter-spacing: .3rem;
 }
